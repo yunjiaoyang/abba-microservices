@@ -8,8 +8,6 @@ spring:
         git:
           uri: https://github.com/yunjiaoyang/abba-microservices
           search-paths: config-repo
-          username: yunjiaoyang@outlook.com
-          password: yangyunjiao.666
           clone-on-start: true
   security:
     user:
