@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-service
+
+encrypt:
+  failOnError: false
+  keyStore:
+    location: classpath:keystore.jks
+    password: abba.123
+    alias: config-service

@@ -1,5 +1,5 @@
 server:
-  port: 11120
+  port: 11110
 
 spring:
   cloud:
@@ -8,8 +8,8 @@ spring:
         git:
           uri: https://github.com/yunjiaoyang/abba-microservices
           search-paths: config-repo
-          clone-on-start: true
   security:
     user:
-      name: admin
-      password: abba
+      password: abba.123
+
+
