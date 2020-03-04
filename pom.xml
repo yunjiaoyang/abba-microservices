@@ -7,21 +7,21 @@
 
     <parent>
         <groupId>com.abba.microservices</groupId>
-        <artifactId>abba-dependencies</artifactId>
+        <artifactId>dependencies</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>./abba-dependencies</relativePath>
+        <relativePath>dependencies</relativePath>
     </parent>
 
-    <artifactId>abba-microservices</artifactId>
+    <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <name>Abba Microservices</name>
-    <description>Abba Microservices</description>
+    <name>Abba</name>
+    <description>Abba</description>
     <url>https://github.com/yunjiaoyang/abba-microservices</url>
 
     <modules>
-        <module>abba-dependencies</module>
-        <module>abba-eureka-service</module>
-        <module>abba-config-service</module>
+        <module>dependencies</module>
+        <module>eureka-service</module>
+        <module>config-service</module>
     </modules>
 
     <licenses>

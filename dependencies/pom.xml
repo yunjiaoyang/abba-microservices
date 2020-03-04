@@ -12,11 +12,11 @@
     </parent>
 
     <groupId>com.abba.microservices</groupId>
-    <artifactId>abba-dependencies</artifactId>
+    <artifactId>dependencies</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Abba Microservice Dependencies</name>
-    <description>Abba Microservice Dependencies</description>
+    <name>Abba Dependencies</name>
+    <description>Abba Dependencies</description>
 
     <properties>
         <spring-cloud.version>Hoxton.SR2</spring-cloud.version>
