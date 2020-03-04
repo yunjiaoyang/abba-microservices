@@ -1,14 +1,10 @@
 spring:
   application:
-    name: abba-eureka-service
+    name: eureka-service
   cloud:
     config:
-      uri: ${CONFIG_SERVICE_URL:http://localhost:11120}
+      uri: http://localhost:9010
+      fail-fast: false
+      password: abba.123
+      username: user
 
-      ---
-      spring:
-        profiles: cloudpeers
-      eureka:
-        client:
-          serviceUrl:
-            defaultZone: ${vcap.services.${PREFIX:}othereureka.credentials.uri:http://${PREFIX:}othereureka.${application.domain:cfapps.io}}/eureka/
