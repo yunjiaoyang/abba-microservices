@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.abba.microservices</groupId>
+        <artifactId>abba-dependencies</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>./abba-dependencies</relativePath>
+    </parent>
+
+    <artifactId>abba-microservices</artifactId>
+    <packaging>pom</packaging>
+    <name>Abba Microservices</name>
+    <description>Abba Microservices</description>
+    <url>https://github.com/yunjiaoyang/abba-microservices</url>
+
+    <modules>
+        <module>abba-dependencies</module>
+        <module>abba-eureka-service</module>
+        <module>abba-config-service</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/yunjiaoyang/abba-microservices</url>
+        <connection>
+            scm:git://github.com/yunjiaoyang/abba-microservices.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh:////github.com/yunjiaoyang/abba-microservices.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>yangyunjiao</name>
+            <email>yangyunjiao@outlook.com</email>
+			<organization>Abba</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+</project>
